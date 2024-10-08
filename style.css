@@ -1,0 +1,121 @@
+header{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header-section{
+    display: flex;
+   
+}
+body{
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home {
+    text-align: right;
+    flex: 1 1 50%;
+    margin:10px;
+}
+
+.About {
+    margin : 10px;
+}
+
+.Portfolio {
+    margin : 10px;
+}
+
+.Contact{
+    margin:10px;
+}
+.h2-name{
+    padding-right: 50px;
+}
+.Section-style{
+    text-align: center;
+
+}
+.Section-index-style{
+    margin: 0 0 0 150px;
+    text-align: center;
+    display: flex;
+}
+.photo-style{
+    height: 150%;
+    max-width: 115%;
+    float: left ;
+    margin-right: 2rem;
+}
+footer {
+    color:aqua;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.category{
+    display: flex;
+    margin: 0 50 0 150px;
+}
+
+.photo-about-style{
+    height: 100%;
+    float: left ;
+    margin-right: 2rem;
+}
+.Section-portfolio-style{
+    text-align: center;
+    margin: 0 150px 0 150px;
+}
+.login-container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    margin-top: 150px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+@media (max-width: 1000px){
+    body{
+        background-color: lightgray;
+    };
+}
